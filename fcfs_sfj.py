@@ -95,7 +95,7 @@ def sjf():
     ata2[mi2]=  float('inf')
     bta2[mi2]=  float('inf')
     l=len(ata2)
-    while l-2:
+    while l-1:
         q3=min(bta2)
         mi3= bta2.index(min(bta2))
         if set([q3 for q3 in bta2 if bta2.count(q3) > 1]):
